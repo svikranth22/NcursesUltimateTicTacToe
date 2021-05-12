@@ -80,7 +80,7 @@ int main(void) {
     noecho();
     keypad(stdscr, TRUE);
     refresh();
-    player = link_players("sai",'X', "miguel", 'O');
+    player = link_players("Player1",'X', "PLayer2", 'O');
     create_windows();
     play_game(TRUE);
     getch();
